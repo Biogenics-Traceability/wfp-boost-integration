@@ -1,0 +1,210 @@
+{
+  "geographic_data": {
+    "@context": {
+      "GeographicData": "https://github.com/carbondirect/BOOST/schemas#GeographicData",
+      "geographicDataId": "https://github.com/carbondirect/BOOST/schemas#geographicDataId",
+      "geoJsonData": "https://github.com/carbondirect/BOOST/schemas#geoJsonData",
+      "dataType": "https://github.com/carbondirect/BOOST/schemas#dataType",
+      "description": "https://github.com/carbondirect/BOOST/schemas#description",
+      "lastUpdated": "https://github.com/carbondirect/BOOST/schemas#lastUpdated",
+      "coordinateSystem": "https://github.com/carbondirect/BOOST/schemas#coordinateSystem",
+      "accuracy": "https://github.com/carbondirect/BOOST/schemas#accuracy",
+      "elevationM": "https://github.com/carbondirect/BOOST/schemas#elevationM",
+      "administrativeRegion": "https://github.com/carbondirect/BOOST/schemas#administrativeRegion",
+      "accessRestrictions": "https://github.com/carbondirect/BOOST/schemas#accessRestrictions",
+      "id": "@id"
+    },
+    "@type": "GeographicData",
+    "@id": "https://wfp.placer.ca.gov/boost/geo/GEO-WFP-PRJ-2026-0412",
+    "geographicDataId": "GEO-WFP-PRJ-2026-0412",
+    "geoJsonData": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -120.7412,
+            39.0921
+          ],
+          [
+            -120.7355,
+            39.0921
+          ],
+          [
+            -120.7355,
+            39.0878
+          ],
+          [
+            -120.7412,
+            39.0878
+          ],
+          [
+            -120.7412,
+            39.0921
+          ]
+        ]
+      ],
+      "properties": {
+        "name": "Foresthill Divide fuel reduction, unit 2",
+        "acresTreated": 38.5
+      }
+    },
+    "dataType": "harvest_site",
+    "description": "Treatment unit boundary from the WFP project record (project 2026-0412)",
+    "coordinateSystem": "EPSG:4326",
+    "administrativeRegion": "Placer County, CA",
+    "lastUpdated": "2026-10-28T17:05:00Z"
+  },
+  "organization": [
+    {
+      "@context": {
+        "Organization": "https://github.com/carbondirect/BOOST/schemas#Organization",
+        "organizationId": "https://github.com/carbondirect/BOOST/schemas#organizationId",
+        "organizationName": "https://github.com/carbondirect/BOOST/schemas#organizationName",
+        "organizationType": "https://github.com/carbondirect/BOOST/schemas#organizationType",
+        "primaryGeographicDataId": "https://github.com/carbondirect/BOOST/schemas#primaryGeographicDataId",
+        "operationalAreas": "https://github.com/carbondirect/BOOST/schemas#operationalAreas",
+        "contactEmail": "https://github.com/carbondirect/BOOST/schemas#contactEmail",
+        "contactPhone": "https://github.com/carbondirect/BOOST/schemas#contactPhone",
+        "certifications": "https://github.com/carbondirect/BOOST/schemas#certifications",
+        "establishedDate": "https://github.com/carbondirect/BOOST/schemas#establishedDate",
+        "taxId": "https://github.com/carbondirect/BOOST/schemas#taxId",
+        "website": "https://github.com/carbondirect/BOOST/schemas#website",
+        "lastUpdated": "https://github.com/carbondirect/BOOST/schemas#lastUpdated",
+        "id": "@id"
+      },
+      "@type": "Organization",
+      "@id": "https://wfp.placer.ca.gov/boost/org/ORG-WFP-LANDOWNER-00917",
+      "organizationId": "ORG-WFP-LANDOWNER-00917",
+      "organizationName": "Mosquito Ridge Timber LLC",
+      "organizationType": "supplier",
+      "primaryGeographicDataId": "GEO-WFP-PRJ-2026-0412",
+      "californiaSRA": true,
+      "fireHazardZoneDesignation": "Very High",
+      "calFireJurisdiction": "NEU",
+      "lastUpdated": "2026-10-28T17:05:00Z"
+    },
+    {
+      "@context": {
+        "Organization": "https://github.com/carbondirect/BOOST/schemas#Organization",
+        "organizationId": "https://github.com/carbondirect/BOOST/schemas#organizationId",
+        "organizationName": "https://github.com/carbondirect/BOOST/schemas#organizationName",
+        "organizationType": "https://github.com/carbondirect/BOOST/schemas#organizationType",
+        "primaryGeographicDataId": "https://github.com/carbondirect/BOOST/schemas#primaryGeographicDataId",
+        "operationalAreas": "https://github.com/carbondirect/BOOST/schemas#operationalAreas",
+        "contactEmail": "https://github.com/carbondirect/BOOST/schemas#contactEmail",
+        "contactPhone": "https://github.com/carbondirect/BOOST/schemas#contactPhone",
+        "certifications": "https://github.com/carbondirect/BOOST/schemas#certifications",
+        "establishedDate": "https://github.com/carbondirect/BOOST/schemas#establishedDate",
+        "taxId": "https://github.com/carbondirect/BOOST/schemas#taxId",
+        "website": "https://github.com/carbondirect/BOOST/schemas#website",
+        "lastUpdated": "https://github.com/carbondirect/BOOST/schemas#lastUpdated",
+        "id": "@id"
+      },
+      "@type": "Organization",
+      "@id": "https://wfp.placer.ca.gov/boost/org/ORG-WFP-OPERATOR-LTO-A12345",
+      "organizationId": "ORG-WFP-OPERATOR-LTO-A12345",
+      "organizationName": "Sierra Fuels Management Inc.",
+      "organizationType": "harvester",
+      "lastUpdated": "2026-10-28T17:05:00Z"
+    }
+  ],
+  "material": {
+    "@context": {
+      "Material": "https://github.com/carbondirect/BOOST/schemas#Material",
+      "materialTypeId": "https://github.com/carbondirect/BOOST/schemas#materialTypeId",
+      "materialName": "https://github.com/carbondirect/BOOST/schemas#materialName",
+      "materialCategory": "https://github.com/carbondirect/BOOST/schemas#materialCategory",
+      "defaultAssortmentTypes": "https://github.com/carbondirect/BOOST/schemas#defaultAssortmentTypes",
+      "standardQualityGrades": "https://github.com/carbondirect/BOOST/schemas#standardQualityGrades",
+      "carbonStorageRate": "https://github.com/carbondirect/BOOST/schemas#carbonStorageRate",
+      "density": "https://github.com/carbondirect/BOOST/schemas#density",
+      "applicableProcessingTypes": "https://github.com/carbondirect/BOOST/schemas#applicableProcessingTypes",
+      "typicalSpecies": "https://github.com/carbondirect/BOOST/schemas#typicalSpecies",
+      "standardMoistureContent": "https://github.com/carbondirect/BOOST/schemas#standardMoistureContent",
+      "energyContent": "https://github.com/carbondirect/BOOST/schemas#energyContent",
+      "lastUpdated": "https://github.com/carbondirect/BOOST/schemas#lastUpdated",
+      "id": "@id"
+    },
+    "@type": "Material",
+    "@id": "https://wfp.placer.ca.gov/boost/material/MAT-WFP-MIXED-CONIFER-CHIPS",
+    "materialTypeId": "MAT-WFP-MIXED-CONIFER-CHIPS",
+    "materialName": "Mixed conifer fuel-reduction residue, chipped",
+    "materialCategory": "softwood",
+    "typicalSpecies": [
+      "Pinus ponderosa",
+      "Pseudotsuga menziesii",
+      "Calocedrus decurrens"
+    ],
+    "applicablePlantParts": [
+      "trunk",
+      "branches",
+      "bark"
+    ],
+    "lastUpdated": "2026-10-28T17:05:00Z"
+  },
+  "traceable_unit": {
+    "@context": {
+      "TraceableUnit": "https://github.com/carbondirect/BOOST/schemas#TraceableUnit",
+      "traceableUnitId": "https://github.com/carbondirect/BOOST/schemas#traceableUnitId",
+      "unitType": "https://github.com/carbondirect/BOOST/schemas#unitType",
+      "uniqueIdentifier": "https://github.com/carbondirect/BOOST/schemas#uniqueIdentifier",
+      "identificationMethodId": "https://github.com/carbondirect/BOOST/schemas#identificationMethodId",
+      "identificationConfidence": "https://github.com/carbondirect/BOOST/schemas#identificationConfidence",
+      "secondaryIdentifiers": "https://github.com/carbondirect/BOOST/schemas#secondaryIdentifiers",
+      "methodReadinessLevel": "https://github.com/carbondirect/BOOST/schemas#methodReadinessLevel",
+      "totalVolumeM3": "https://github.com/carbondirect/BOOST/schemas#totalVolumeM3",
+      "currentGeographicDataId": "https://github.com/carbondirect/BOOST/schemas#currentGeographicDataId",
+      "harvestGeographicDataId": "https://github.com/carbondirect/BOOST/schemas#harvestGeographicDataId",
+      "createdTimestamp": "https://github.com/carbondirect/BOOST/schemas#createdTimestamp",
+      "harvesterId": "https://github.com/carbondirect/BOOST/schemas#harvesterId",
+      "operatorId": "https://github.com/carbondirect/BOOST/schemas#operatorId",
+      "materialTypeId": "https://github.com/carbondirect/BOOST/schemas#materialTypeId",
+      "productClassification": "https://github.com/carbondirect/BOOST/schemas#productClassification",
+      "physicalArrangement": "https://github.com/carbondirect/BOOST/schemas#physicalArrangement",
+      "alternativeFateMetrics": "https://github.com/carbondirect/BOOST/schemas#alternativeFateMetrics",
+      "qualityGrade": "https://github.com/carbondirect/BOOST/schemas#qualityGrade",
+      "isMultiSpecies": "https://github.com/carbondirect/BOOST/schemas#isMultiSpecies",
+      "attachedInformation": "https://github.com/carbondirect/BOOST/schemas#attachedInformation",
+      "processingHistory": "https://github.com/carbondirect/BOOST/schemas#processingHistory",
+      "parentTraceableUnitId": "https://github.com/carbondirect/BOOST/schemas#parentTraceableUnitId",
+      "childTraceableUnitIds": "https://github.com/carbondirect/BOOST/schemas#childTraceableUnitIds",
+      "currentStatus": "https://github.com/carbondirect/BOOST/schemas#currentStatus",
+      "sustainabilityCertification": "https://github.com/carbondirect/BOOST/schemas#sustainabilityCertification",
+      "mediaBreakFlags": "https://github.com/carbondirect/BOOST/schemas#mediaBreakFlags",
+      "lastUpdated": "https://github.com/carbondirect/BOOST/schemas#lastUpdated",
+      "id": "@id"
+    },
+    "@type": "TraceableUnit",
+    "@id": "https://wfp.placer.ca.gov/boost/tru/TRU-WFP-PRJ-2026-0412-COMPLETION",
+    "traceableUnitId": "TRU-WFP-PRJ-2026-0412-COMPLETION",
+    "unitType": "volume_aggregation",
+    "uniqueIdentifier": "WFP project 2026-0412, completed-project record, attestation 2026-10-28T17:05:00Z",
+    "identificationMethodId": "IM-WFP-PROJECT-RECORD",
+    "identificationConfidence": 85,
+    "methodReadinessLevel": 5,
+    "totalVolumeM3": 412.3,
+    "currentGeographicDataId": "GEO-WFP-PRJ-2026-0412",
+    "harvestGeographicDataId": "GEO-WFP-PRJ-2026-0412",
+    "createdTimestamp": "2026-10-28T17:05:00Z",
+    "harvesterId": "ORG-WFP-OPERATOR-LTO-A12345",
+    "materialTypeId": "MAT-WFP-MIXED-CONIFER-CHIPS",
+    "productClassification": "chips",
+    "isMultiSpecies": true,
+    "currentStatus": "delivered",
+    "attachedInformation": [
+      "wfp:project_id=2026-0412",
+      "wfp:completion_date=2026-10-28",
+      "wfp:treatment=thinning",
+      "wfp:acres_treated=38.5",
+      "wfp:biomass_removed=310 green_tons",
+      "wfp:biomass_by_size_class=0-4in:120 green_tons;4-6in:95 green_tons;6-9in:70 green_tons;9+in:25 green_tons",
+      "wfp:species=mixed;Pinus ponderosa,Pseudotsuga menziesii,Calocedrus decurrens",
+      "wfp:disposition=290 green_tons delivered_to Rio Bravo Rocklin, Rocklin CA;20 green_tons chipped_and_scattered",
+      "wfp:operator=Sierra Fuels Management Inc.;LTO A12345",
+      "wfp:authorization=exemption 4-26EX-00321-PLA",
+      "wfp:rpf_attestation=true;RPF 2874;2026-10-28T17:05:00Z",
+      "wfp:volume_conversion=green_tons*1.13"
+    ],
+    "lastUpdated": "2026-10-28T17:05:00Z"
+  }
+}

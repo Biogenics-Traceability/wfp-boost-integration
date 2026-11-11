@@ -1,0 +1,19 @@
+name: validate examples against BOOST v3.4.2
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Biogenics-Traceability/BOOST
+          ref: v3.4.2
+          path: boost
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install 'jsonschema[format]>=4.23,<5'
+      - run: python3 scripts/validate_examples.py boost
