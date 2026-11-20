@@ -44,12 +44,12 @@
         ]
       ],
       "properties": {
-        "name": "Foresthill Divide fuel reduction, unit 2",
+        "name": "Mosquito Ridge Timber LLC, Foresthill Divide property",
         "acresTreated": 38.5
       }
     },
-    "dataType": "harvest_site",
-    "description": "Treatment unit boundary from the WFP project record (project 2026-0412)",
+    "dataType": "supply_base_area",
+    "description": "Property boundary, T14N R11E S22 MDM, Foresthill, APN 064-110-021 (WFP project 2026-0412)",
     "coordinateSystem": "EPSG:4326",
     "administrativeRegion": "Placer County, CA",
     "lastUpdated": "2026-10-28T17:05:00Z"
@@ -73,8 +73,8 @@
         "id": "@id"
       },
       "@type": "Organization",
-      "@id": "https://wfp.placer.ca.gov/boost/org/ORG-WFP-LANDOWNER-00917",
-      "organizationId": "ORG-WFP-LANDOWNER-00917",
+      "@id": "https://wfp.placer.ca.gov/boost/org/ORG-WFP-LO-3F2A9C1E-7B4D-4E8A-9C1F-0A2B3C4D5E6F",
+      "organizationId": "ORG-WFP-LO-3F2A9C1E-7B4D-4E8A-9C1F-0A2B3C4D5E6F",
       "organizationName": "Mosquito Ridge Timber LLC",
       "organizationType": "supplier",
       "primaryGeographicDataId": "GEO-WFP-PRJ-2026-0412",
@@ -101,8 +101,8 @@
         "id": "@id"
       },
       "@type": "Organization",
-      "@id": "https://wfp.placer.ca.gov/boost/org/ORG-WFP-OPERATOR-LTO-A12345",
-      "organizationId": "ORG-WFP-OPERATOR-LTO-A12345",
+      "@id": "https://wfp.placer.ca.gov/boost/org/ORG-WFP-OP-LTO-A12345",
+      "organizationId": "ORG-WFP-OP-LTO-A12345",
       "organizationName": "Sierra Fuels Management Inc.",
       "organizationType": "harvester",
       "lastUpdated": "2026-10-28T17:05:00Z"
@@ -126,9 +126,9 @@
       "id": "@id"
     },
     "@type": "Material",
-    "@id": "https://wfp.placer.ca.gov/boost/material/MAT-WFP-MIXED-CONIFER-CHIPS",
-    "materialTypeId": "MAT-WFP-MIXED-CONIFER-CHIPS",
-    "materialName": "Mixed conifer fuel-reduction residue, chipped",
+    "@id": "https://wfp.placer.ca.gov/boost/material/MAT-WFP-SOFTWOOD-BIOMASS",
+    "materialTypeId": "MAT-WFP-SOFTWOOD-BIOMASS",
+    "materialName": "Softwood biomass",
     "materialCategory": "softwood",
     "typicalSpecies": [
       "Pinus ponderosa",
@@ -182,27 +182,31 @@
     "identificationMethodId": "IM-WFP-PROJECT-RECORD",
     "identificationConfidence": 85,
     "methodReadinessLevel": 5,
-    "totalVolumeM3": 412.3,
+    "totalVolumeM3": 350.3,
     "currentGeographicDataId": "GEO-WFP-PRJ-2026-0412",
     "harvestGeographicDataId": "GEO-WFP-PRJ-2026-0412",
     "createdTimestamp": "2026-10-28T17:05:00Z",
-    "harvesterId": "ORG-WFP-OPERATOR-LTO-A12345",
-    "materialTypeId": "MAT-WFP-MIXED-CONIFER-CHIPS",
-    "productClassification": "chips",
+    "harvesterId": "ORG-WFP-OP-LTO-A12345",
+    "materialTypeId": "MAT-WFP-SOFTWOOD-BIOMASS",
+    "productClassification": "biomass",
     "isMultiSpecies": true,
     "currentStatus": "delivered",
     "attachedInformation": [
       "wfp:project_id=2026-0412",
+      "wfp:start_date=2026-09-14",
       "wfp:completion_date=2026-10-28",
-      "wfp:treatment=thinning",
+      "wfp:treatment=thinning;mastication",
       "wfp:acres_treated=38.5",
+      "wfp:geometry=property_boundary",
       "wfp:biomass_removed=310 green_tons",
       "wfp:biomass_by_size_class=0-4in:120 green_tons;4-6in:95 green_tons;6-9in:70 green_tons;9+in:25 green_tons",
-      "wfp:species=mixed;Pinus ponderosa,Pseudotsuga menziesii,Calocedrus decurrens",
-      "wfp:disposition=290 green_tons delivered_to Rio Bravo Rocklin, Rocklin CA;20 green_tons chipped_and_scattered",
+      "wfp:species=softwood;Pinus ponderosa,Pseudotsuga menziesii,Calocedrus decurrens",
+      "wfp:disposition=290 green_tons delivered_to Rio Bravo Rocklin, Rocklin;20 green_tons chipped_and_scattered",
       "wfp:operator=Sierra Fuels Management Inc.;LTO A12345",
       "wfp:authorization=exemption 4-26EX-00321-PLA",
+      "wfp:funding_source=CAL FIRE Wildfire Prevention Grant",
       "wfp:rpf_attestation=true;RPF 2874;2026-10-28T17:05:00Z",
+      "wfp:submitted_by=rpf",
       "wfp:volume_conversion=green_tons*1.13"
     ],
     "lastUpdated": "2026-10-28T17:05:00Z"
